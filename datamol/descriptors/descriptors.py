@@ -8,7 +8,6 @@ from rdkit.Chem import Lipinski
 from rdkit.Chem import rdmolops
 from rdkit.Chem import Crippen
 
-
 from .. import Mol
 from ..convert import from_smarts
 from .._version import is_lower_than_current_rdkit_version
